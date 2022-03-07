@@ -22,3 +22,8 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+
+
+
+  <% link_to "Articles Listing", articles_path %> |
+<% link_to "About Page", about_path %>
