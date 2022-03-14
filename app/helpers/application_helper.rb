@@ -1,6 +1,6 @@
 module ApplicationHelper
 
-  def gravatar_for(user, options = { size: 200 })
+  def gravatar_for(user, options = { size: 80 })
     email_address = user.email.downcase
  
     # create the md5 hash
